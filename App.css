@@ -1,0 +1,73 @@
+.App {
+  background-color: #fcfaed;
+}
+html,body{
+  overflow-x: hidden;
+}
+@font-face {
+  
+  src: url("./Assets/PinkChicken-Regular.ttf");
+}
+@font-face {
+  font-family: "chickencripsy";
+  src: url("./Assets/chicken_crispy/Chicken\ Cripsy.ttf");
+}
+@font-face {
+  font-family: "chickenbones";
+  src: url("./Assets/chicken-bones-font/ChickenBonesRegular-Rpn8E.ttf");
+}
+
+.navbar-nav {
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 100% !important;
+  gap: 20px;
+}
+p,
+h1,
+h5,
+h6,
+link,
+a {
+  
+}
+h2,
+h3 {
+  /* font-family: "chickencripsy"; */
+}
+h4 {
+  /* font-family: "chickenbones"; */
+}
+
+li.slick-active button {
+  background-image: url("./Assets/eggscor.png");
+  background-repeat: no-repeat;
+  height: 30px !important;
+}
+.slick-dots li button:before {
+  line-height: 30px !important;
+  color: #a85721 !important;
+  font-size: 12px !important;
+  opacity: 1 !important;
+}
+.slick-dots {
+  background-color: #f5f3e7;
+}
+h2 {
+  font-size: 3vw;
+}
+
+.slick-dots li button:before {
+}
+.slider-container {
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+}
+.navbar-toggler-icon {
+  background-image: url("../src/Assets/navbar.png") !important;
+  background-size: 60% !important;
+}
+.navbar-toggler{
+  border-width: 0px !important ;
+}

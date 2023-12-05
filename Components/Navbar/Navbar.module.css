@@ -1,0 +1,17 @@
+.navmaindiv {
+  background-color: #f5f3e7;
+  box-shadow: 1px 1px 1px 2px #e8e4e4;
+}
+.navlink {
+  font-size: 1.4vw;
+}
+.img{
+  width:200px;
+}
+@media screen and (max-width:920px) {
+  .navmaindiv {
+    background-color: #f5f3e7;
+    box-shadow: 1px 1px 1px 2px #e8e4e4;
+    
+  }
+}

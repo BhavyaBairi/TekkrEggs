@@ -1,0 +1,247 @@
+.landiv {
+  background-color: #fcfaed;
+  height: 90vh;
+  overflow: hidden;
+}
+.landiv2 {
+  background-color: #fcfaed;
+  height: 90vh;
+}
+.cluckmaindivpp p{
+  width: 70%;
+  text-align: center;
+}
+.eggsdivmain {
+  display: flex !important;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 100%;
+  justify-content: space-around;
+  height: 90vh;
+}
+.eggseggstremaindiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.eggseggstremaindiv1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eggstrediv {
+  position: absolute;
+  bottom: -5%;
+}
+.eggsdiv img {
+  width: 300px;
+}
+.eggstrediv img {
+  width: 500px;
+}
+.cluckmaindiv,
+.sunvecmaindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cluckmaindivimg img {
+  width: 120px;
+}
+.cluckmaindivpp p {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.sunvecmaindivp p {
+  font-size: 1.5vw;
+}
+.cluckmaindivpp,
+.sunvecmaindivp {
+  width: 200px;
+  text-align: center;
+}
+
+.cluckmaindivp h2 {
+  margin-bottom: 0;
+  font-size: 4vw;
+  background: -webkit-linear-gradient(#ed820e, #ed5958);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.sunvecmaindivvec img {
+  width: 200px;
+}
+.sunvecmaindivvec {
+  width: 100%;
+  display: flex;
+  margin-right: -100%;
+}
+.sunvecmaindivfeather img {
+  width: 200px;
+}
+.sunvecmaindivfeather {
+  margin-bottom: -70px;
+}
+.eggsdivvc {
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  width: 100%;
+  height: 450px;
+}
+
+.sunvecmaindivfeather img {
+  animation: float 3s ease-out infinite;
+}
+@keyframes float {
+  50% {
+    transform: translate(0, 15px);
+  }
+}
+.shadow2 {
+  position: absolute;
+  height: 10px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  filter: blur(3px);
+}
+.shadow {
+  position: absolute;
+  height: 10px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  filter: blur(3px);
+  animation: shrink 3s ease-out infinite;
+}
+@keyframes shrink {
+  0% {
+    width: 50%;
+  }
+  50% {
+    width: 30%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .eggsdiv img {
+    width: 250px;
+  }
+  .eggstrediv img {
+    width: 500px;
+  }
+  .sunvecmaindivimg img {
+    width: 200px;
+  }
+  .sunvecmaindivvec img {
+    width: 150px;
+  }
+  .sunvecmaindivfeather img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .eggsdiv img {
+    width: 200px;
+  }
+  .eggstrediv img {
+    width: 400px;
+  }
+  .sunvecmaindivimg img {
+    width: 200px;
+  }
+  .sunvecmaindivvec img {
+    width: 150px;
+  }
+  .sunvecmaindivfeather img {
+    width: 150px;
+  }
+  .sunvecmaindivfeather {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sunvecmaindivfeather {
+    display: none;
+  }
+  
+  .sunvecmaindivvec img {
+    display: none;
+  }
+  .eggsdiv img {
+    width: 250px;
+  }
+  
+  .eggstrediv img {
+    width: 400px;
+  
+  }
+  .sunvecmaindivimg img {
+    width: 150px;
+  }
+  .sunvecmaindivvec img {
+    width: 100px;
+  }
+  .sunvecmaindivfeather img {
+    width: 60px;
+    z-index: 9;
+    position: sticky;
+  }
+  .eggsdivmain {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .cluckmaindiv,
+  .sunvecmaindiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cluckmaindivpp p {
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+  .sunvecmaindivp p {
+    font-size: 12px;
+    margin-top:16px;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+  .eggstrediv img {
+    width: 350px;
+  }
+}
+@media screen and (max-width:425px) {
+  .eggseggstremaindiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .eggseggstremaindiv1 {
+    display: flex;
+    justify-content: center;
+  }  
+  .eggstrediv {
+    position: absolute;
+    bottom: -5%;
+  }
+  .eggsdiv video{
+    height: 250px;
+
+  }
+  .eggstrediv img {
+    width: 200px;
+  }
+}

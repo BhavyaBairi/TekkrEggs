@@ -1,0 +1,16 @@
+.landwhy {
+  position: relative;
+}
+.landwhy21 {
+  position: absolute;
+  top: 35%;
+}
+.landwhy21 img {
+  width: 100px;
+}
+
+@media screen and (max-width: 720px) {
+  .landwhy21 {
+    display: none;
+  }
+}

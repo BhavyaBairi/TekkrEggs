@@ -1,0 +1,143 @@
+.WhyChooseTekkrEggsmindiv {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 100px;
+  background-color: #fcfaed;
+}
+.whycemaindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ed0e0e;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  overflow: hidden;
+  height: 100%;
+  width: 80%;
+}
+.whycemaindiv2 {
+  height: 100%;
+}
+.grpegg{
+  height:300px;
+  width:300px !important;
+}
+.whycemaindiv12 {
+  display: flex;
+  justify-content: flex-end;
+}
+.whychimgmain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.whychimgmain2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.whychimgmainimg img {
+  width: 150px;
+}
+.whychimgmainimg2 img {
+  width: 150px;
+}
+.whycemaindivimgs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.whycemaindivhp {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+.whychimgmainimg2text h2 {
+  font-size: 2vw;
+  font-weight: 600;
+}
+.whychimgmainimg2text2 h2 {
+  font-size: 2vw;
+  font-weight: 600;
+}
+.whychimgmainimg2text p {
+  font-size: 1.6vw;
+}
+.whychimgmainimg2text2 p {
+  font-size: 1.6vw;
+}
+.whycemaindivh h2 {
+  color: #fff;
+  font-size: 3.5vw;
+  text-shadow: 2px 2px #584e4e;
+}
+.whycemaindivp p {
+  color: #fff;
+}
+.whycemaindiv2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.whycemaindivimgs img {
+  width: 150px;
+}
+.whycemaindivimgs1 {
+  margin-left: -10px;
+  margin-top: 30px;
+}
+
+.whycemaindivimgs2 img {
+  animation: float 3s ease-out infinite;
+}
+@keyframes float {
+  50% {
+    transform: translate(0, 15px);
+  }
+}
+.WhyChooseTekkrEggsmindiv{
+  padding:3%;
+}
+.whycemaindiv12 {
+  height: 100%;
+}
+@media screen and (max-width: 950px) {
+  .WhyChooseTekkrEggsmindiv {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .whychimgmainimg img {
+    width: 100px;
+  }
+  .whychimgmainimg2 img {
+    width: 100px;
+  }
+  .whychimgmainimg2text h2 {
+    font-size: 3vw;
+  }
+  .whychimgmainimg2text2 h2 {
+    font-size: 3vw;
+  }
+  .grpegg{
+    height:200px;
+    width:200px !important;
+  }
+  .whychimgmainimg2text p {
+    font-size: 2vw;
+  }
+  .whychimgmainimg2text2 p {
+    font-size: 2vw;
+  }
+}
